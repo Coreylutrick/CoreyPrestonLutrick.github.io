@@ -1,3 +1,6 @@
+const firebase = require('./firebaseApi');
+const dom = require('./dom');
+
 const navHome = () =>
 {
   $(document).on('click','#home', (e) =>
@@ -31,6 +34,7 @@ const navProjects = () =>
     $('.homePage').addClass('hide');
     $('.workHistoryPage').addClass('hide');
     $('.contactInfoPage').addClass('hide');
+    getAllProjectsEvent();
   });
 };
 
@@ -68,6 +72,19 @@ const navContact = () =>
     $('.blogPage').addClass('hide');
     $('.workHistoryPage').addClass('hide');
   });
+};
+
+const getAllProjectsEvent = () =>
+{
+  firebase.getAllProjects()
+    .then((projectsArr) =>
+    {
+      dom.domStringBuilder(projectsArr);
+    })
+    .catch((err) =>
+    {
+      console.error('damn',err);
+    });
 };
 
 const initializer = () =>
