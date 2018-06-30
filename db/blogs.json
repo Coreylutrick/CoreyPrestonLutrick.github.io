@@ -1,0 +1,61 @@
+{
+  "blogs":
+  [
+    {
+      "title": "Blog #1",
+      "info":  "So far i feel like i have learned quite a bit in only the few days we have had in class. The main thing is that between html and css there are multiple ways to do things. Before i started the treehouse classes and our actual class i was under the impression that coding was a right and wrong sort of thing. I'm pleasantly surprised to find that you can do things however you see fit. With html only I was happy to know that most of it is very basic and you mainly just need to remember the structure of a page and what child elements belong t other elements. The main thing Ive noticed for myself is that i need to pay attention to my spelling and syntax(dont forget brackets!). With css i was super relieved when Zoe had expressed that its impossible to remember all css rules. Its comforting to know that im not the only person who may have to look up ho to change the font of all h3s on the page for instance. I do really enjoy the fact that css is very straight forward, or atleast in my opinion. When i look at a stylesheet i feel that i roughly know exactly what the different entries are changing on the page. Most of all though, i love that github is alot easier then i had imagined. My only struggle to being was making directories and then forgetting to enter them causing me to make repositories in the wrong directories. Now though it is second nature to use the pwd command to make sure im in the right area before making any changes. I also feel that at this point i have a good grasp on creating branches as well as just navigating git bash."
+    },
+    {
+      "title": "Blog #2",
+      "info": "This week we started Java Script. It was definitely scary at first but also exciting. Scary because there are so many things to keep track of and remember, but exciting because i can actually make code that does something now. We mostly focused on arrays this week and how to loop through them and pull or manipulate the data in whatever way we wanted. I found the array challenges that we did to be challenging but also rewarding. What i struggled with most was finding the proper array method for what i was wanting to do. Once i figured out what did what i had an easier time of it. there were a few that were intersting to me, one was a challenge where we let beggers take turns collecting money(our data). It was interesting to me because in order to have them collect in the way we wanted we had to include an internal counter for our function that we wrote so the code would know exactly who had collected and make sure the proper beggar would go next until there was nothing left to collect. All in all i feel pretty confident about arrays but i know this is just the surface of java script, but im excited to get deeper into it."
+    },
+    {
+      "title": "Blog #3",
+      "info": "Wow. I was right about arrays only scratching the surface of java script. This week we dived into objects and functions. Not only that, we also got into arrays of objects that were manipulated by functions. This got way more in depth then arrays did but I feel like I grasped this alot easier. Functions make going through data so much easier. I had used a couple last week but only what i had learned myself so my understanding of them wasnt as strong. Now that i know the power of what they can do alot of the tasks i had last week now look very easy. Also the structure of objects makes it easier for me. I find that being able to call certain keys or all keys(or values) makes things easier. I now also like that i can easily make a function that will insert the finished product of what i want to do with the data right into the html without hard coding it. I do think though that depending on what you are doing building up a string in a js file can get pretty crazy if you aren't keeping your code clean and organized. One thing I did notice this weeek is that I organize my brackets and other syntax elements differently then most of my class mates. I put all of my brackets on their own line so i can clearly see if i am missing one. All I have to do is follow that specific indentation down and see if my brackets are closed. I know this makes my code longer but for me it has minimized my syntax errors, or made them easier to fix if i have one."
+    },
+    {
+      "title": "Blog #4",
+      "info":  "This week was very interesting for me. We are finally making things that do something. We have started getting into event listeners which is giving us the ability to give our projects some interactability. These have been pretty straight forward so far, they are similar to functions in the way that i just have to look up different methods to make them do what I want. We also started learning ES6 for java script. I enjoy this way of writing functions just because it seems more straightforward and clean when i look at the code. We also went over what needs to be in a readme to make it serve its purpose. Until now we had just been naming them but now I see alot more goes into to actually provide the user or whoever is looking at your code with valuable information."
+    },
+    {
+      "title": "Blog #5",
+      "info": "This week we learned how to pull data from a JSON file rather then just having it inside our js files. I like this because i feel like it keeps my code alot cleaner. You don't have your data mixed in with your functions so everything is easier to read. It really wasnt too difficult to figure out once you realize that your XHR requests are going to all mostly be the same with minor tweaks to file paths and what code you want to be executed once the request has happened properly"
+    },
+    {
+      "title": "Blog #6",
+      "info": "We can finally use boot strap. This week was pretty straightforward with what we learned. Alot of it was just understanding where to find the classes you need for your code to make bootstrap do what you want. I really like bootstrap because it takes alot of the tedious leg work out of certain things. Also you can just overwrite certain styling aspects with your own css file to make them exactly how you want. The only thing thta bothers me is how we pring our visible elements right now it makes offsetting column problematic becuase it makes changes to all your printed elements."
+    },
+    {
+      "title": "Blog #7",
+      "info": "This week we learned about browserify. At first it seemed like alot to do for the set up of a project for such little value to get back. But now i see the benefit of it because of the exporting and requiring aspect. It also holds my code to a consistent standard which is nice when i look at my code and it is very uniform. It also lets me find pieces of code that i have in my files easier because it isnt alljust one huge wall of javascript now. I still have to memorize the set up for the browserify stuff as well as grunt but it is starting to become muscle memory as well."
+    },
+    {
+      "title": "Blog #8",
+      "info": "This week we have just built off what we started with last week. THe most interesting thing i think so far is that we can now safely save data into our js because we just use a module that isnt accesable by a user. This makes iteasier to maipulate data and use it how you want without having to call it multiple times through an xhr request. We have been ding this by pulling the info down and sticking it into an array we had defined but left empty. I have run into some issues with circular dependancy though just from the location of certain functions or event listeners."
+    },
+    {
+      "title": "Blog #9",
+      "info": "This week we got another group project to work on. I was a little dissapointed that me and my group got a very minimal MVP to start but i ended up enjoying msyelof and working with this group alot. The little requirements we had allowed me to actually enjoy the project rather then be stressed about it. I got to take more time to explore different ways of doing things instead of just sticking with the first way that worked. I also got to spend more time working directly with people on issues, I felt like i had a little part in almost every part of the project. I got to work alor with juno on the delete button function and I also figured out how to get rid of a circular dependency we had that let us get our edit function working. Also if i do say so myself our project had some pretty good themes for stylling."
+    },
+    {
+      "title": "Blog #10",
+      "info": "WOW! Jquery is my new best friend. Im amazed at how much more quickly you can get things done without having to code in vanilla JS. Event listeners are now super easy to attach as well as getting them to do what you want. I feel like things are alot more straightforward using jquery. Im not going to lie though i do feel a little betrayed seeing how things that used to give me massive headaches are no accomplished using way less code and time to do haha."
+    },
+    {
+      "title": "Blog #11",
+      "info": "I'm not as excited this week... We started with promises and i am a little confused about them. So far i see the helpfulness of them being able to put more then one data call together without having to do it in some crazy way. I am a little hazy on the actual functionality of them so far, i kind of feel like i am writing the code without fully understanding why i am doing it. That said it is really nice to be able to smush 2 or 3 data calls together and use them to make a modified verion of the data."
+    },
+    {
+      "title":"Blog #12",
+      "info": "This week we learned about apis. So far it hasnt been to confusing. Mostly just figuring out what the api needs to work and making sure that noce i set up the url in the promise that i have everything in the right place."
+    },
+    {
+      "title":"Blog #13",
+      "info": "This week we expanded on apis and focused on firebase. This has been interesting because now we can actually save specific user information as well as make running apps that other people can use. The only difficult part so far to me is remembering the steps to take outside of our code to make sure everything is working with firebase. The part that seems the nicest is that we can modify how we want our data structure easily."
+    },
+    {
+      "title":"Blog #14",
+      "info":"This week we added authentication to our project. Honestly the hardest, or most annoying part is hiding and adding classes to create the page to what we want visually. The actual code behind creating the log in is just following a list alomost. "
+    }
+  ]
+}
