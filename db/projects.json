@@ -2,24 +2,27 @@
   "projects": [
     {
       "id": "project1",
-      "title": "Chatty",
-      "imageUrl": "../main/2snake.jpg",
-      "description": "This is the best project",
-      "githubUrl": "https://github.com/Coreylutrick/Coreylutrick.github.io"
+      "title": "Chatty Pogonophobics",
+      "imageUrl": "https://github.com/nss-evening-cohort-7/chatty-pogonophobia/blob/master/screenshots/Screen%20Shot%202018-04-30%20at%207.36.56%20PM.png?raw=true",
+      "summary": "A chat room for pogonophobics(those that fear beards).",
+      "description": "As a group we created a basic message board. We worked together to create a site that you can post messages, edit, and delete them. We also created 2 different styles you can enable.",
+      "githubUrl": "https://github.com/nss-evening-cohort-7/chatty-pogonophobia"
     },
     {
       "id": "project2",
       "title": "Clicky Planets",
-      "imageUrl": "../main/space-turtle.jpg",
-      "description": "This is the best project",
-      "githubUrl": "https://github.com/Coreylutrick/Coreylutrick.github.io"
+      "imageUrl": "https://github.com/Coreylutrick/Solar-System/raw/master/screenshots/Screenshot2.png",
+      "summary": "This is an excercise in event listeners.",
+      "description": "For this project we focused on event listeners. We created multiple event listeners for this site. Some examples are, mouse enter/ mouse leave, click, and keypress.",
+      "githubUrl": "https://github.com/Coreylutrick/Solar-System"
     },
     {
       "id": "project3",
       "title": "Local Weather",
-      "imageUrl": "../main/pigBoots.jpg",
-      "description": "This is the best project",
-      "githubUrl": "https://github.com/Coreylutrick/Coreylutrick.github.io"
+      "imageUrl": "https://github.com/Coreylutrick/local-weather/blob/master/screenshots/screenshot1.png?raw=true",
+      "summary": "This project focused around using data from an API.",
+      "description": "This project was our first in dealing with data not stored locally. We used the open weather Api to gain access to informatino we used to create forecasts for the user. We also made authentication functionality so a user can save a weather for certain days to their favorites.",
+      "githubUrl": "https://github.com/Coreylutrick/local-weather"
     }
   ]
 }
