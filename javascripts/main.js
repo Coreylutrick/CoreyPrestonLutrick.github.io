@@ -1,5 +1,5 @@
-const initializer = require('./events');
-const firebase = require('./firebaseApi');
+// const initializer = require('./events');
+const key = require('./apiKey');
 
-initializer.initializer();
-firebase.retrieveKeys();
+// initializer.initializer();
+key.retrieveKeys();

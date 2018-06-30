@@ -9,35 +9,6 @@ const getFirebaseConfig = () => {
   return fireBaseConfig;
 };
 
-const apiKeys = () =>
-{
-  return new Promise((resolve, reject) =>
-  {
-    $.ajax('./db/apiKeys.json')
-      .done((data) =>
-      {
-        resolve(data);
-      })
-      .fail((err) =>
-      {
-        reject(err);
-      });
-  });
-};
-
-const retrieveKeys = () =>
-{
-  apiKeys()
-    .then((result) =>
-    {
-      setConfig(result.firebase);
-      firebase.initializeApp(result.firebase);
-    }).catch((err) =>
-    {
-      console.error('No keys', err);
-    });
-};
-
 const getAllProjects = () =>
 {
   const firebaseConfig = getFirebaseConfig();
@@ -133,7 +104,6 @@ module.exports =
   getAllProjects,
   getFirebaseConfig,
   setConfig,
-  retrieveKeys,
   getAllBlogs,
   getAllWorks,
 };
