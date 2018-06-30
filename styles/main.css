@@ -17,3 +17,15 @@ h1 {
 .card {
   margin-top: 3em;
 }
+
+.blogCard {
+  background-color: #448D76;
+}
+
+.workCard {
+  background-color: #448D76;
+}
+
+.contact {
+  margin-right: 1em;
+}
