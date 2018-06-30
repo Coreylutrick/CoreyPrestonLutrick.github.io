@@ -1,0 +1,25 @@
+{
+  "projects": [
+    {
+      "id": "project1",
+      "title": "Chatty",
+      "imageUrl": "../main/2snake.jpg",
+      "description": "This is the best project",
+      "githubUrl": "https://github.com/Coreylutrick/Coreylutrick.github.io"
+    },
+    {
+      "id": "project2",
+      "title": "Clicky Planets",
+      "imageUrl": "../main/space-turtle.jpg",
+      "description": "This is the best project",
+      "githubUrl": "https://github.com/Coreylutrick/Coreylutrick.github.io"
+    },
+    {
+      "id": "project3",
+      "title": "Local Weather",
+      "imageUrl": "../main/pigBoots.jpg",
+      "description": "This is the best project",
+      "githubUrl": "https://github.com/Coreylutrick/Coreylutrick.github.io"
+    }
+  ]
+}
