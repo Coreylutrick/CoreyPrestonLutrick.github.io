@@ -6,6 +6,7 @@ const navHome = () =>
   $(document).on('click','#home', (e) =>
   {
     $('.homePage').removeClass('hide');
+    $('.aboutMeBox').removeClass('hide');
     $('.blogPage').addClass('hide');
     $('.projectPage').addClass('hide');
     $('.workHistoryPage').addClass('hide');
@@ -18,6 +19,7 @@ const navHome2 = () =>
   $(document).on('click','#home2', (e) =>
   {
     $('.homePage').removeClass('hide');
+    $('.aboutMeBox').removeClass('hide');
     $('.parallax-container').removeClass('hide');
     $('.blogPage').addClass('hide');
     $('.projectPage').addClass('hide');
@@ -36,6 +38,7 @@ const navProjects = () =>
     $('.homePage').addClass('hide');
     $('.workHistoryPage').addClass('hide');
     $('.contactInfoPage').addClass('hide');
+    $('.aboutMeBox').addClass('hide');
     getAllProjectsEvent();
   });
 };
@@ -50,6 +53,7 @@ const navBlogs = () =>
     $('.homePage').addClass('hide');
     $('.workHistoryPage').addClass('hide');
     $('.contactInfoPage').addClass('hide');
+    $('.aboutMeBox').addClass('hide');
     getAllBlogsEvent();
   });
 };
@@ -64,6 +68,7 @@ const navHistory = () =>
     $('.homePage').addClass('hide');
     $('.blogPage').addClass('hide');
     $('.contactInfoPage').addClass('hide');
+    $('.aboutMeBox').addClass('hide');
     getAllWorksEvent();
   });
 };
@@ -78,6 +83,7 @@ const navContact = () =>
     $('.homePage').addClass('hide');
     $('.blogPage').addClass('hide');
     $('.workHistoryPage').addClass('hide');
+    $('.aboutMeBox').addClass('hide');
   });
 };
 
