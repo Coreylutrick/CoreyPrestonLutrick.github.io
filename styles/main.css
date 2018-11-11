@@ -29,3 +29,7 @@ h1 {
 .contact {
   margin-right: 1em;
 }
+
+.parallax-container {
+  height: 350px;
+}
