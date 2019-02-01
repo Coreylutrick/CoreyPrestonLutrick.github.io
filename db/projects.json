@@ -10,11 +10,11 @@
     },
     {
       "id": "project2",
-      "title": "Clicky Planets",
-      "imageUrl": "https://github.com/Coreylutrick/Solar-System/raw/master/screenshots/Screenshot2.png",
-      "summary": "This is an excercise in event listeners.",
-      "description": "For this project we focused on event listeners. We created multiple event listeners for this site. Some examples are, mouse enter/ mouse leave, click, and keypress.",
-      "githubUrl": "https://github.com/Coreylutrick/Solar-System"
+      "title": "Dream Team",
+      "imageUrl": "../images/dreamteam.png",
+      "summary": "This is my front-end capstone project",
+      "description": "This is my front-end Capstone project. It is a databases for pokemon. YOu can search up pokemon and view a plethroa of information about them. You may add the ones you like to your personnal container and nickname them just like in the actual games.",
+      "githubUrl": "https://github.com/Coreylutrick/Dream-Team"
     },
     {
       "id": "project3",
